@@ -1,0 +1,25 @@
+Controls:
+[Left-click] Select piece and choose where to move.
+[Right-click] Hold to rotate camera in orbital mode.
+[1] Set camera mode to orbital (default). 
+[2] Set camera mode to spectator (use WASD to move around).
+[ENTER/ESC] Pause the game and enter the menu.
+[R] Reset camera to default view.
+[F5] Quick save.
+[F9] Quick load.
+[M] Start/stop music.
+[I] Switch piece capture info display.
+[ALT + F1] Switch to fullscreen (switching back causes bugs I'm still debugging). 
+
+Options:
+[Geometry Quality] The quality of background scenes being rendered.
+[AI Level] Still under testing.
+
+Frame-rate too low? 
+Turn off antialiasing and reflections, disable the background, and use the native chess set.
+
+How do I use a custom engine?
+Copy the executable file of the UCI engine into the Data/Engines folder, and name it "Custom.exe", then you must set the AI engine to custom in the game options menu. A restart is required to change the AI engine. 
+
+Note:
+Checkmate isn't always detected properly, but you should be able to know since you can't move at all when it says check. 

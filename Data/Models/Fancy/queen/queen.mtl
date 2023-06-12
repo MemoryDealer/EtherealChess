@@ -1,0 +1,10 @@
+# Exported from Wings 3D 1.4.1
+newmtl white
+Ns 100.0
+d 1.0
+illum 2
+Kd 1.0 1.0 1.0
+Ka 0.8668 0.8668 0.8668
+Ks 1.0 1.0 1.0
+Ke 0.001 0.001 0.001
+
